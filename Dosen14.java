@@ -54,7 +54,7 @@ public class Dosen14 {
         }
     }
 
-    // Tambahan: urutkan berdasarkan masa kerja (descending)
+    // Memakai bubble sorting berdasarkan Masa Kerja
     static void urutkanBerdasarkanMasaKerja(Dosen14[] daftarDosen) {
         for (int i = 0; i < daftarDosen.length - 1; i++) {
             for (int j = 0; j < daftarDosen.length - i - 1; j++) {
